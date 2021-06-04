@@ -153,8 +153,9 @@ public class MemoryController {
 
     @FXML
     void initialize() throws MalformedURLException {
-        cbThème.getItems().addAll("Couleur", "Fleur", "Animaux");
-        cbThème.
+        String[] choix = {"Couleur", "Fleur", "Animaux"}
+        cbThème.getItems().addAll(choix);
+        cbThème.setValue(choix[0]);
     }
 
     @FXML
