@@ -23,18 +23,18 @@ public class MemoryController {
     Image img2;
 
     public void remplirListe(ArrayList<String> images) {
-        images.add("./images/Donald1.jpg");
-        images.add("./images/Donald2.jpg");
-        images.add("./images/Donald3.jpg");
-        images.add("./images/Donald4.jpg");
-        images.add("./images/Donald5.jpg");
-        images.add("./images/Donald6.jpg");
-        images.add("./images/Donald1.jpg");
-        images.add("./images/Donald2.jpg");
-        images.add("./images/Donald3.jpg");
-        images.add("./images/Donald4.jpg");
-        images.add("./images/Donald5.jpg");
-        images.add("./images/Donald6.jpg");
+        images.add("../images/Donald1.jpg");
+        images.add("../images/Donald2.jpg");
+        images.add("../images/Donald3.jpg");
+        images.add("../images/Donald4.jpg");
+        images.add("../images/Donald5.jpg");
+        images.add("../images/Donald6.jpg");
+        images.add("../images/Donald1.jpg");
+        images.add("../images/Donald2.jpg");
+        images.add("../images/Donald3.jpg");
+        images.add("../images/Donald4.jpg");
+        images.add("../images/Donald5.jpg");
+        images.add("../images/Donald6.jpg");
     }
 
     @FXML
