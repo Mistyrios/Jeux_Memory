@@ -34,52 +34,52 @@ public class MemoryController {
 
     public void remplirListe(ArrayList<String> images, String cbThème) {
         if (cbThème.equals("Couleur")) {
-            images.add("./unilim/info/ihm/memory/assets/Couleur_1.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_2.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_3.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_4.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_5.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_6.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_1.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_2.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_3.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_4.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_5.jpg");
-            images.add("./unilim/info/ihm/memory/assets/Couleur_6.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_1.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_2.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_3.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_4.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_5.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_6.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_1.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_2.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_3.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_4.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_5.jpg");
+            images.add("./src/unilim/info/ihm/memory/assets/Couleur_6.jpg");
         } else {
             if (cbThème.equals("Fleur")) {
-                images.add("./unilim/info/ihm/memory/assets/Fleur_1.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_2.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_3.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_4.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_5.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_6.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_1.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_2.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_3.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_4.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_5.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Fleur_6.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_1.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_2.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_3.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_4.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_5.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_6.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_1.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_2.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_3.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_4.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_5.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Fleur_6.jpg");
             }
             else if (cbThème.equals("Animaux")){
-                images.add("./unilim/info/ihm/memory/assets/Animaux_1.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_2.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_3.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_4.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_5.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_6.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_1.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_2.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_3.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_4.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_5.jpg");
-                images.add("./unilim/info/ihm/memory/assets/Animaux_6.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_1.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_2.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_3.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_4.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_5.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_6.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_1.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_2.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_3.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_4.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_5.jpg");
+                images.add("./src/unilim/info/ihm/memory/assets/Animaux_6.jpg");
             }
         }
     }
 
     public void remplirListeDos(ArrayList<String> imagesDos) {
-        imagesDos.add("./unilim/info/ihm/memory/assets/Dos.png");
+        imagesDos.add("./src/unilim/info/ihm/memory/assets/Dos.png");
     }
 
     @FXML
@@ -127,6 +127,7 @@ public class MemoryController {
     @FXML
     void commencerPartie(MouseEvent event) {
         jouer = true;
+        images.clear();
         remplirListe(images, cbThème.getValue());
         remplirListeDos(imagesDos);
         Collections.shuffle(images);
@@ -153,7 +154,7 @@ public class MemoryController {
 
     @FXML
     void initialize() throws MalformedURLException {
-        String[] choix = {"Couleur", "Fleur", "Animaux"}
+        String[] choix = {"Couleur", "Fleur", "Animaux"};
         cbThème.getItems().addAll(choix);
         cbThème.setValue(choix[0]);
     }
