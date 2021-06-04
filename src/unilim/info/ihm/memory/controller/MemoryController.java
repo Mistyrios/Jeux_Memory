@@ -176,7 +176,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné1 = true;
@@ -254,7 +254,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         img1 = img2 = null;
                         tour = 0;
                         retourné2 = true;
@@ -300,7 +300,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
@@ -332,7 +332,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné3 = true;
@@ -378,7 +378,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
@@ -410,7 +410,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné4 = true;
@@ -456,7 +456,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
@@ -488,7 +488,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné5 = true;
@@ -534,7 +534,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
@@ -566,7 +566,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné6 = true;
@@ -612,7 +612,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
@@ -644,7 +644,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné7 = true;
@@ -690,7 +690,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
@@ -722,7 +722,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné8 = true;
@@ -768,7 +768,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
@@ -800,7 +800,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné9 = true;
@@ -846,7 +846,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
@@ -878,7 +878,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné10 = true;
@@ -924,7 +924,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
@@ -956,7 +956,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné11 = true;
@@ -1002,7 +1002,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
@@ -1034,7 +1034,7 @@ public class MemoryController {
                     }
                     tour = tour + 1;
                 } else if (tour == 2) {
-                    if (img1.getImage().getPixelReader().getColor(1, 1).equals(img2.getImage().getPixelReader().getColor(1, 1))) {
+                    if (img1.getImage().impl_getUrl().equals(img2.getImage().impl_getUrl())) {
                         tour = 0;
                         img1 = img2 = null;
                         retourné12 = true;
@@ -1080,7 +1080,7 @@ public class MemoryController {
                             setImageDos(image10);
                             retourné10 = false;
                         }
-                        if (image11.equals(img1) | (image11.equals(img2))) {
+                        if (image11.equals(img1) || (image11.equals(img2))) {
                             setImageDos(image11);
                             retourné11 = false;
                         }
